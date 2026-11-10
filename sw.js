@@ -1,5 +1,5 @@
 /* Onething Worship: keeps the app on the phone so it opens without a network. */
-var BUILT = 1793335577663, CACHE = 'otw-' + BUILT;
+var BUILT = 1794235140658, CACHE = 'otw-' + BUILT;
 var FILES = ["./","./index.html","./manifest.webmanifest","./icon-180.png","./icon-192.png","./icon-512.png"];
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) {
